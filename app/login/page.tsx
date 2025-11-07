@@ -108,12 +108,6 @@ export default function LoginPage() {
             <Button type="submit" className="w-full" disabled={isSubmitting || loading}>
               {isSubmitting ? "Ingresando..." : "Ingresar"}
             </Button>
-
-            <div className="text-xs text-muted-foreground space-y-2 p-3 bg-muted rounded">
-              <p className="font-semibold">Credenciales de prueba:</p>
-              <p>👨‍💼 Admin: maria.lopez@example.com / Password123!</p>
-              <p>👤 Cliente: carlos.perez@example.com / Password123!</p>
-            </div>
           </form>
         </CardContent>
       </Card>
